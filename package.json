@@ -11,9 +11,10 @@
     "dev": "nodemon index.js"
   },
   "dependencies": {
-    "translate-json-object": "^2.3.6"
+    "dotenv": "^8.2.0",
+    "translate-json-object": "2.3.6"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "2.0.4"
   }
 }

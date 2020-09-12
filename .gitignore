@@ -50,3 +50,6 @@ Thumbs.db
 
 # JSON files
 *.json
+
+# Environment Variables
+*.env
