@@ -1,0 +1,19 @@
+{
+  "name": "food-translator",
+  "version": "0.0.1",
+  "description": "Translates JSON fields from TACO",
+  "main": "index.js",
+  "repository": "https://moraesjeremias@bitbucket.org/moraesjeremias/food-translator.git",
+  "author": "Jeremias Moraes <moraesjeremias@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "translate-json-object": "^2.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
