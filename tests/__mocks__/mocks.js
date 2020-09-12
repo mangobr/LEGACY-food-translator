@@ -10,6 +10,16 @@ const simpleTranslateMock = () => {
         notToTranslate: "mg, fs",
       },
     },
+    {
+      superNestedObject: {
+        toTranslate: {
+          translateDeep:
+          {
+            translateDeeper: "Navegando em águas profundas"
+          }
+        },
+      },
+    },
   ];
 };
 
