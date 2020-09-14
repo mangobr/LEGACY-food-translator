@@ -26,6 +26,9 @@ dist/
 # JetBrains IDE
 .idea/
 
+# VSCode Text Editor
+.vscode/
+
 # Unit test reports
 TEST*.xml
 
@@ -47,3 +50,9 @@ Thumbs.db
 *.flv
 *.mov
 *.wmv
+
+# JSON files
+*.json
+
+# Environment Variables
+*.env
