@@ -51,8 +51,3 @@ Thumbs.db
 *.mov
 *.wmv
 
-# JSON files
-*.json
-
-# Environment Variables
-*.env
