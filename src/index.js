@@ -10,11 +10,11 @@ translator.init({
 });
 
 const readJsonStream = fs.createReadStream(
-    path.resolve(__dirname, "json", "models", `${process.env.JSON_INPUT_FILE}.json`),
+    path.resolve(__dirname, "..", "json", "models", `${process.env.JSON_INPUT_FILE}.json`),
     { highWaterMark: 50 }
 );
 const writeJsonStream = fs.createWriteStream(
-    path.resolve(__dirname, "json", "exports", `${process.env.JSON_OUTPUT_FILE}.json`)
+    path.resolve(__dirname, "..", "json", "exports", `${process.env.JSON_OUTPUT_FILE}.json`)
 );
 
 readJsonStream.pipe(jsonStream.parse())
